@@ -15,11 +15,11 @@ public class SnackController {
 		s.setFlavor(flavor);
 		s.setNumOf(numOf);
 		s.setPrice(price);
-		return "ÀúÀå ¿Ï·áµÇ¾ú½À´Ï´Ù.";
+		return "ì €ì¥ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.";
 	}
 	
 	public String confirmData() {
-		return s.getName() + "(" + s.getKind() + " - " + s.getFlavor() + ") " + s.getNumOf() + "°³ " + s.getPrice() + "¿ø";
+		return s.getName() + "(" + s.getKind() + " - " + s.getFlavor() + ") " + s.getNumOf() + "ê°œ " + s.getPrice() + "ì›";
 	}
 
 }
