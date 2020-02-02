@@ -15,19 +15,19 @@ public class ShapeMenu {
 		int num = 0;
 		
 		do {
-			System.out.println("===== µµÇü ÇÁ·Î±×·¥ ======");
-			System.out.println("3. »ï°¢Çü");
-			System.out.println("4. »ç°¢Çü");
-			System.out.println("9. ÇÁ·Î±×·¥ Á¾·á");
+			System.out.println("===== ë„í˜• í”„ë¡œê·¸ë¨ ======");
+			System.out.println("3. ì‚¼ê°í˜•");
+			System.out.println("4. ì‚¬ê°í˜•");
+			System.out.println("9. í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 			
-			System.out.print("¸Ş´º ¹øÈ£ : ");
+			System.out.print("ë©”ë‰´ ë²ˆí˜¸ : ");
 			num = sc.nextInt();
 			
 			if(num == 9) {
-				System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+				System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 				break;
 			}else if(num == 1) {
-				System.out.println("Àß¸øµÈ ¹øÈ£ÀÔ´Ï´Ù. ´Ù½ÃÀÔ·ÂÇÏ¼¼¿ä.");
+				System.out.println("ì˜ëª»ëœ ë²ˆí˜¸ì…ë‹ˆë‹¤. ë‹¤ì‹œì…ë ¥í•˜ì„¸ìš”.");
 			}else if(num == 3) {
 				triangleMenu();
 			}else if(num == 4) {
@@ -42,19 +42,19 @@ public class ShapeMenu {
 		
 		int num = 0;
 		do {
-			System.out.println("===== »ï°¢Çü =====");
-			System.out.println("1. »ï°¢Çü ¸éÀû");
-			System.out.println("2. »ï°¢Çü »öÄ¥");
-			System.out.println("3. »ï°¢Çü Á¤º¸");
-			System.out.println("9. ¸ŞÀÎÀ¸·Î");
+			System.out.println("===== ì‚¼ê°í˜• =====");
+			System.out.println("1. ì‚¼ê°í˜• ë©´ì ");
+			System.out.println("2. ì‚¼ê°í˜• ìƒ‰ì¹ ");
+			System.out.println("3. ì‚¼ê°í˜• ì •ë³´");
+			System.out.println("9. ë©”ì¸ìœ¼ë¡œ");
 			
-			System.out.print("¸Ş´º ¹øÈ£ : ");
+			System.out.print("ë©”ë‰´ ë²ˆí˜¸ : ");
 			num = sc.nextInt();
 			
 			if(num == 9) {
-				System.out.println("¸ŞÀÎÀ¸·Î µ¹¾Æ°©´Ï´Ù.");
+				System.out.println("ë©”ì¸ìœ¼ë¡œ ëŒì•„ê°‘ë‹ˆë‹¤.");
 //				inputMenu();
-				// µÇµ¹¾Æ°¡´Â ¸Ş¼Òµå¸¦ ÇÏÁö¸»°í break·Î ¹İº¹¹®À» ³ª°¡¼­ ÀÚ½ÅÀ» ºÎ¸¥ °÷À¸·Î µ¹¾Æ°¡°Ô ÇÔ
+				// ë˜ëŒì•„ê°€ëŠ” ë©”ì†Œë“œë¥¼ í•˜ì§€ë§ê³  breakë¡œ ë°˜ë³µë¬¸ì„ ë‚˜ê°€ì„œ ìì‹ ì„ ë¶€ë¥¸ ê³³ìœ¼ë¡œ ëŒì•„ê°€ê²Œ í•¨
 				break;
 			}else if(num == 1) {
 				inputSize(3,1);
@@ -70,18 +70,18 @@ public class ShapeMenu {
 
 		int num = 0;
 		do {
-			System.out.println("===== »ç°¢ =====");
-			System.out.println("1. »ç°¢Çü µÑ·¹");
-			System.out.println("2. »ç°¢Çü ¸éÀû");
-			System.out.println("3. »ç°¢Çü »öÄ¥");
-			System.out.println("4. »ç°¢Çü Á¤º¸");
-			System.out.println("9. ¸ŞÀÎÀ¸·Î");
+			System.out.println("===== ì‚¬ê° =====");
+			System.out.println("1. ì‚¬ê°í˜• ë‘˜ë ˆ");
+			System.out.println("2. ì‚¬ê°í˜• ë©´ì ");
+			System.out.println("3. ì‚¬ê°í˜• ìƒ‰ì¹ ");
+			System.out.println("4. ì‚¬ê°í˜• ì •ë³´");
+			System.out.println("9. ë©”ì¸ìœ¼ë¡œ");
 			
-			System.out.print("¸Ş´º ¹øÈ£ : ");
+			System.out.print("ë©”ë‰´ ë²ˆí˜¸ : ");
 			num = sc.nextInt();
 			
 			if(num == 9) {
-				System.out.println("¸ŞÀÎÀ¸·Î µ¹¾Æ°©´Ï´Ù.");
+				System.out.println("ë©”ì¸ìœ¼ë¡œ ëŒì•„ê°‘ë‹ˆë‹¤.");
 //				inputMenu();
 				break;
 			}else if(num == 1) {
@@ -98,41 +98,41 @@ public class ShapeMenu {
 	
 	public void inputSize(int type, int menuNum) {
 		if(type == 3 && menuNum == 1) {
-			System.out.print("³ôÀÌ : ");
+			System.out.print("ë†’ì´ : ");
 			double height = sc.nextInt();
-			System.out.print("³Êºñ : ");
+			System.out.print("ë„ˆë¹„ : ");
 			double width = sc.nextInt();
 			sc.nextLine();
 			
-			System.out.print("»ï°¢Çü ¸éÀû : ");
+			System.out.print("ì‚¼ê°í˜• ë©´ì  : ");
 			System.out.println(tc.calcArea(height, width));
 		}else if(type == 3 && menuNum == 2) {
-			System.out.print("»ö±òÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+			System.out.print("ìƒ‰ê¹”ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 			sc.nextLine();
 			String color = sc.nextLine();
 			
 			tc.paintColor(color);
-			System.out.println("»öÀÌ ¼öÁ¤µÇ¾ú½À´Ï´Ù.");
+			System.out.println("ìƒ‰ì´ ìˆ˜ì •ë˜ì—ˆìŠµë‹ˆë‹¤.");
 			
 		}else if(type == 4 && menuNum == 1 || menuNum == 2) {
-			System.out.print("³ôÀÌ : ");
+			System.out.print("ë†’ì´ : ");
 			double height = sc.nextInt();
-			System.out.print("³Êºñ : ");
+			System.out.print("ë„ˆë¹„ : ");
 			double width = sc.nextInt();
 			sc.nextLine();
 			if(menuNum == 1) {
-				System.out.print("»ç°¢Çü µÑ·¹ : ");
+				System.out.print("ì‚¬ê°í˜• ë‘˜ë ˆ : ");
 				System.out.println(scr.calcPerimeter(height, width));
 			}else if(menuNum == 2) {
-				System.out.print("»ç°¢Çü ¸éÀû : ");
+				System.out.print("ì‚¬ê°í˜• ë©´ì  : ");
 				System.out.println(scr.calcArea(height, width));
 			}
 		}else if(type == 4 && menuNum == 3) {
-			System.out.print("»ö±òÀ» ÀÔ·ÂÇÏ¼¼¿ä : ");
+			System.out.print("ìƒ‰ê¹”ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 			sc.nextLine();
 			String color = sc.nextLine();
 			scr.paintColor(color);
-			System.out.println("»öÀÌ ¼öÁ¤µÇ¾ú½À´Ï´Ù.");
+			System.out.println("ìƒ‰ì´ ìˆ˜ì •ë˜ì—ˆìŠµë‹ˆë‹¤.");
 		}
 	}
 	
