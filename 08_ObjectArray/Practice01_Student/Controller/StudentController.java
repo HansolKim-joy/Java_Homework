@@ -8,11 +8,11 @@ public class StudentController {
 	
 	public StudentController() {}
 	public Student[] printStudent() {
-		sArr[0] = new Student("±è±æµ¿", "ÀÚ¹Ù", 100);
-		sArr[1] = new Student("¹Ú±æµ¿", "µğºñ", 50);
-		sArr[2] = new Student("ÀÌ±æµ¿", "È­¸é", 85);
-		sArr[3] = new Student("Á¤±æµ¿", "¼­¹ö", 60);
-		sArr[4] = new Student("È«±æµ¿", "ÀÚ¹Ù", 20);
+		sArr[0] = new Student("ê¹€ê¸¸ë™", "ìë°”", 100);
+		sArr[1] = new Student("ë°•ê¸¸ë™", "ë””ë¹„", 50);
+		sArr[2] = new Student("ì´ê¸¸ë™", "í™”ë©´", 85);
+		sArr[3] = new Student("ì •ê¸¸ë™", "ì„œë²„", 60);
+		sArr[4] = new Student("í™ê¸¸ë™", "ìë°”", 20);
 		
 		return sArr;
 	}
