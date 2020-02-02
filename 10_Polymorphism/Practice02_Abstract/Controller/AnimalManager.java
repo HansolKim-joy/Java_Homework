@@ -8,11 +8,11 @@ public class AnimalManager {
 	public static void main(String[] args) {
 		Animal[] aArr = new Animal[5];
 		
-		aArr[0] = new Dog("¹ÙµÏÀÌ", "¸»Æ¼Áî", 12);
-		aArr[1] = new Cat("¾ß¿ËÀÌ", "³ë¸£¿şÀÌ", "Áı", "Èò»ö");
-		aArr[2] = new Dog("Çàº¹ÀÌ", "½´³ª¿ìÁ®", 5);
-		aArr[3] = new Cat("Ä«·¹", "±æ°í¾çÀÌ", "ÆÄÁÖ", "³ë¶õ»ö");
-		aArr[4] = new Dog("¸Û¸ÛÀÌ", "´Ş¸¶½Ã¾È", 9);
+		aArr[0] = new Dog("ë°”ë‘‘ì´", "ë§í‹°ì¦ˆ", 12);
+		aArr[1] = new Cat("ì•¼ì˜¹ì´", "ë…¸ë¥´ì›¨ì´", "ì§‘", "í°ìƒ‰");
+		aArr[2] = new Dog("í–‰ë³µì´", "ìŠˆë‚˜ìš°ì ¸", 5);
+		aArr[3] = new Cat("ì¹´ë ˆ", "ê¸¸ê³ ì–‘ì´", "íŒŒì£¼", "ë…¸ë€ìƒ‰");
+		aArr[4] = new Dog("ë©ë©ì´", "ë‹¬ë§ˆì‹œì•ˆ", 9);
 		
 		for(int i = 0; i < aArr.length; i++) {
 			aArr[i].speak();
