@@ -8,27 +8,27 @@ public class V40 extends SmartPhone implements NotePen{
 
 	@Override
 	public String makeCall() {
-		return "¹øÈ£¸¦ ´©¸£°í ÅëÈ­¹öÆ°À» ´©¸§";
+		return "ë²ˆí˜¸ë¥¼ ëˆ„ë¥´ê³  í†µí™”ë²„íŠ¼ì„ ëˆ„ë¦„";
 	}
 
 	@Override
 	public String takeCall() {
-		return "ÀüÈ­¹Ş±â ¹öÆ°À» ´©¸§";
+		return "ì „í™”ë°›ê¸° ë²„íŠ¼ì„ ëˆ„ë¦„";
 	}
 
 	@Override
 	public String picture() {
-		return "1200, 1600¸¸ È­¼Ò Æ®¸®ÇÃ Ä«¸Ş¶ó";
+		return "1200, 1600ë§Œ í™”ì†Œ íŠ¸ë¦¬í”Œ ì¹´ë©”ë¼";
 	}
 	
 	@Override
 	public String charge() {
-		return "°í¼ÓÃæÀü, °í¼Ó ¹«¼± ÃæÀü";
+		return "ê³ ì†ì¶©ì „, ê³ ì† ë¬´ì„  ì¶©ì „";
 	}
 	
 	@Override
 	public String touch() {
-		return "Á¤Àü½Ä";
+		return "ì •ì „ì‹";
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class V40 extends SmartPhone implements NotePen{
 
 	@Override
 	public String printInformation() {
-		return "V40´Â " + super.getMaker() + "¿¡¼­ ¸¸µé¾îÁ³°í Á¦¿øÀº ´ÙÀ½°ú °°´Ù." + "\n" + makeCall()
-		+ "\n" + takeCall() + "\n" + picture() + "\n" + charge() + "\n" + touch() + "\n" + "ºí·çÅõ½º Ææ Å¾Àç ¿©ºÎ : " + bluetoothPen();
+		return "V40ëŠ” " + super.getMaker() + "ì—ì„œ ë§Œë“¤ì–´ì¡Œê³  ì œì›ì€ ë‹¤ìŒê³¼ ê°™ë‹¤." + "\n" + makeCall()
+		+ "\n" + takeCall() + "\n" + picture() + "\n" + charge() + "\n" + touch() + "\n" + "ë¸”ë£¨íˆ¬ìŠ¤ íœ íƒ‘ì¬ ì—¬ë¶€ : " + bluetoothPen();
 	}
 }
