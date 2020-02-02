@@ -79,7 +79,7 @@ public class DimensionPractice {
 			sum = 0;
 		}
 		for(int i = 0; i < arr.length; i++) {
-			// ¿©±â¸¦ ÁÖÀÇ!
+			// ì—¬ê¸°ë¥¼ ì£¼ì˜!
 			for(int j = 0; j < arr.length - 1; j++) {
 				sum += arr[j][i];
 			}
@@ -103,10 +103,10 @@ public class DimensionPractice {
 		int col = 0;
 		
 		do {
-			System.out.print("Çà Å©±â : ");
+			System.out.print("í–‰ í¬ê¸° : ");
 			row = sc.nextInt();
 			
-			System.out.print("¿­ Å©±â : ");
+			System.out.print("ì—´ í¬ê¸° : ");
 			col = sc.nextInt();
 			
 			char[][] ch = new char[row][col];
@@ -120,7 +120,7 @@ public class DimensionPractice {
 			
 			for(int i = 0; i < row; i++) {
 				if(row > 10 || col > 10) {
-					System.out.println("¹İµå½Ã 1~10 »çÀÌÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇØ¾ß ÇÕ´Ï´Ù.");
+					System.out.println("ë°˜ë“œì‹œ 1~10 ì‚¬ì´ì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•´ì•¼ í•©ë‹ˆë‹¤.");
 					break;
 				}
 				
@@ -134,8 +134,8 @@ public class DimensionPractice {
 	}
 	
 	public void practice6() {
-		String[][] strArr = new String[][] {{"ÀÌ", "±î", "¿Ô", "¾Õ", "Èû"}, {"Â÷", "Áö", "½À", "À¸", "³À"}, {"¿ø",
-			"¿­", "´Ï", "·Î", "½Ã"}, {"¹è", "½É", "´Ù", "Á»", "´Ù"}, {"¿­", "È÷", "! ", "´õ", "!! "}};
+		String[][] strArr = new String[][] {{"ì´", "ê¹Œ", "ì™”", "ì•", "í˜"}, {"ì°¨", "ì§€", "ìŠµ", "ìœ¼", "ëƒ…"}, {"ì›",
+			"ì—´", "ë‹ˆ", "ë¡œ", "ì‹œ"}, {"ë°°", "ì‹¬", "ë‹¤", "ì¢€", "ë‹¤"}, {"ì—´", "íˆ", "! ", "ë”", "!! "}};
 		for(int i = 0; i < strArr.length; i++) {
 			for(int j = 0; j < strArr[i].length; j++) {
 				System.out.print(" " + strArr[j][i]);
@@ -145,14 +145,14 @@ public class DimensionPractice {
 	
 	public void practice7() {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("ÇàÀÇ Å©±â : ");
+		System.out.print("í–‰ì˜ í¬ê¸° : ");
 		int row = sc.nextInt();
 		
 		char[][] arr = new char[row][];
 		int num1 = 97;
 		
 		for(int i = 0; i < arr.length; i++) {
-			System.out.print(i + "ÇàÀÇ ¿­ Å©±â : ");
+			System.out.print(i + "í–‰ì˜ ì—´ í¬ê¸° : ");
 			int num = sc.nextInt();
 			arr[i] = new char[num];
 		}
@@ -173,7 +173,7 @@ public class DimensionPractice {
 	}
 	
 	public void practice8() {
-		String[] arr = {"°­°Ç°­", "³²³ª³ª", "µµ´ë´ã", "·ù¶ó¶ó", "¹®¹Ì¹Ì", "¹Úº¸¹è", "¼Û¼º½Ç", "À±¿¹ÀÇ", "ÁøÀçÁÖ", "Â÷ÃµÃà", "ÇÇÇ³Ç¥", "È«ÇÏÇÏ"};
+		String[] arr = {"ê°•ê±´ê°•", "ë‚¨ë‚˜ë‚˜", "ë„ëŒ€ë‹´", "ë¥˜ë¼ë¼", "ë¬¸ë¯¸ë¯¸", "ë°•ë³´ë°°", "ì†¡ì„±ì‹¤", "ìœ¤ì˜ˆì˜", "ì§„ì¬ì£¼", "ì°¨ì²œì¶•", "í”¼í’í‘œ", "í™í•˜í•˜"};
 		
 		String[][] arr1 = new String[3][2];
 		String[][] arr2 = new String[3][2];
@@ -187,7 +187,7 @@ public class DimensionPractice {
 			}
 		}
 		
-		System.out.println("== 1ºĞ´Ü == ");
+		System.out.println("== 1ë¶„ë‹¨ == ");
 		for(int i = 0; i < arr1.length; i++) {
 			for(int j = 0; j < arr1[i].length; j++) {
 				System.out.print(arr1[i][j] + " ");
@@ -203,7 +203,7 @@ public class DimensionPractice {
 			}
 		}
 		
-		System.out.println("== 2ºĞ´Ü == ");
+		System.out.println("== 2ë¶„ë‹¨ == ");
 		for(int i = 0; i < arr2.length; i++) {
 			for(int j = 0; j < arr2[i].length; j++) {
 				System.out.print(arr2[i][j] + " ");
@@ -213,14 +213,14 @@ public class DimensionPractice {
 	}
 	
 	public void practice9() {
-		String[] arr = {"°­°Ç°­", "³²³ª³ª", "µµ´ë´ã", "·ù¶ó¶ó", "¹®¹Ì¹Ì", "¹Úº¸¹è", "¼Û¼º½Ç", "À±¿¹ÀÇ", "ÁøÀçÁÖ", "Â÷ÃµÃà", "ÇÇÇ³Ç¥", "È«ÇÏÇÏ"};
+		String[] arr = {"ê°•ê±´ê°•", "ë‚¨ë‚˜ë‚˜", "ë„ëŒ€ë‹´", "ë¥˜ë¼ë¼", "ë¬¸ë¯¸ë¯¸", "ë°•ë³´ë°°", "ì†¡ì„±ì‹¤", "ìœ¤ì˜ˆì˜", "ì§„ì¬ì£¼", "ì°¨ì²œì¶•", "í”¼í’í‘œ", "í™í•˜í•˜"};
 		
 		String[][] arr1 = new String[3][2];
 		String[][] arr2 = new String[3][2];
 		
 		int num = 0;
 		
-		System.out.println("== 1ºĞ´Ü == ");
+		System.out.println("== 1ë¶„ë‹¨ == ");
 		for(int i = 0; i < arr1.length; i++) {
 			for(int j = 0; j < arr1[i].length; j++) {
 				arr1[i][j] = arr[num];
@@ -230,7 +230,7 @@ public class DimensionPractice {
 			System.out.println();
 		}
 		
-		System.out.println("== 2ºĞ´Ü ==");		
+		System.out.println("== 2ë¶„ë‹¨ ==");		
 		for(int i = 0; i < arr2.length; i++) {
 			for(int j = 0; j < arr2[i].length; j++) {
 				arr2[i][j] = arr[(num)];
@@ -240,12 +240,12 @@ public class DimensionPractice {
 			System.out.println();
 		}
 		
-		// ±×¸²´ë·Î ³ª¿À±â ³¡
+		// ê·¸ë¦¼ëŒ€ë¡œ ë‚˜ì˜¤ê¸° ë
 		
 		System.out.println("===============");
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("°Ë»öÇÒ ÇĞ»ı ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ê²€ìƒ‰í•  í•™ìƒ ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		String str = sc.nextLine();
 		
 		for(int i = 0; i < arr1.length; i++) {
@@ -254,15 +254,15 @@ public class DimensionPractice {
 					String row = " ";
 					String col = " ";
 					switch(i) {
-					case 0: row = "Ã¹"; break;
-					case 1: row = "µÎ"; break;
-					case 2: row = "¼Â"; break;
+					case 0: row = "ì²«"; break;
+					case 1: row = "ë‘"; break;
+					case 2: row = "ì…‹"; break;
 					}
 					switch(j) {
-					case 0: col = "¿ŞÂÊ"; break;
-					case 1: col = "¿À¸¥ÂÊ"; break;
+					case 0: col = "ì™¼ìª½"; break;
+					case 1: col = "ì˜¤ë¥¸ìª½"; break;
 					}
-					System.out.print("°Ë»öÇÏ½Å " + str + " ÇĞ»ıÀº 1ºĞ´Ü " + row + "¹øÂ° ÁÙ " + col + "¿¡ ÀÖ½À´Ï´Ù.");	
+					System.out.print("ê²€ìƒ‰í•˜ì‹  " + str + " í•™ìƒì€ 1ë¶„ë‹¨ " + row + "ë²ˆì§¸ ì¤„ " + col + "ì— ìˆìŠµë‹ˆë‹¤.");	
 				}
 			}
 		}
@@ -273,15 +273,15 @@ public class DimensionPractice {
 					String row = " ";
 					String col = " ";
 					switch(i) {
-					case 0: row = "Ã¹"; break;
-					case 1: row = "µÎ"; break;
-					case 2: row = "¼Â"; break;
+					case 0: row = "ì²«"; break;
+					case 1: row = "ë‘"; break;
+					case 2: row = "ì…‹"; break;
 					}
 					switch(j) {
-					case 0: col = "¿ŞÂÊ"; break;
-					case 1: col = "¿À¸¥ÂÊ"; break;
+					case 0: col = "ì™¼ìª½"; break;
+					case 1: col = "ì˜¤ë¥¸ìª½"; break;
 					}
-					System.out.print("°Ë»öÇÏ½Å " + str + " ÇĞ»ıÀº 2ºĞ´Ü " + row + "¹øÂ° ÁÙ " + col + "¿¡ ÀÖ½À´Ï´Ù.");	
+					System.out.print("ê²€ìƒ‰í•˜ì‹  " + str + " í•™ìƒì€ 2ë¶„ë‹¨ " + row + "ë²ˆì§¸ ì¤„ " + col + "ì— ìˆìŠµë‹ˆë‹¤.");	
 				}
 			}
 		}
