@@ -19,10 +19,10 @@ public class BookMenu {
 	
 	public void mainMenu() {
 		while(true) {
-			System.out.println("1. µµ¼­ Ãß°¡ ÀúÀå");
-			System.out.println("2. ÀúÀå µµ¼­ Ãâ·Â");
-			System.out.println("9. ÇÁ·Î±×·¥ ³¡³»±â");
-			System.out.print("¸Ş´º ¹øÈ£ : ");
+			System.out.println("1. ë„ì„œ ì¶”ê°€ ì €ì¥");
+			System.out.println("2. ì €ì¥ ë„ì„œ ì¶œë ¥");
+			System.out.println("9. í”„ë¡œê·¸ë¨ ëë‚´ê¸°");
+			System.out.print("ë©”ë‰´ ë²ˆí˜¸ : ");
 			int num = sc.nextInt();
 			sc.nextLine();
 			
@@ -30,25 +30,25 @@ public class BookMenu {
 			case 1: fileSave(); break;
 			case 2: fileRead(); break;
 			case 9: 
-				System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+				System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 				return;
 			default: 
-				System.out.println("Àß¸ø ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù. ´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+				System.out.println("ì˜ëª» ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤. ë‹¤ì‹œ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 			}
 		}
 	}
 	
 	public void fileSave() {
-		System.out.print("µµ¼­ ¸í : ");
+		System.out.print("ë„ì„œ ëª… : ");
 		String title = sc.nextLine();
 		
-		System.out.print("ÀúÀÚ ¸í : ");
+		System.out.print("ì €ì ëª… : ");
 		String author = sc.nextLine();
 		
-		System.out.print("µµ¼­ °¡°İ : ");
+		System.out.print("ë„ì„œ ê°€ê²© : ");
 		int price = Integer.parseInt(sc.nextLine());
 		
-		System.out.print("ÃâÆÇ³¯Â¥(yyyy-mm-dd) : ");
+		System.out.print("ì¶œíŒë‚ ì§œ(yyyy-mm-dd) : ");
 		String date1 = sc.nextLine();
 		String[] date2 = date1.split("-");
 		int year = Integer.parseInt(date2[0]);
@@ -57,7 +57,7 @@ public class BookMenu {
 		Calendar c = Calendar.getInstance();
 		c.set(year, month, date);
 		
-		System.out.print("ÇÒÀÎÀ² : ");
+		System.out.print("í• ì¸ìœ¨ : ");
 		double discount = sc.nextDouble();
 		
 		Book b = new Book(title, author, price, c, discount);
