@@ -29,7 +29,7 @@ public abstract class Animal {
 	
 	@Override
 	public String toString() {
-		return "ÀúÀÇ ÀÌ¸§Àº " + name + "ÀÌ°í, Á¾·ù´Â " + kinds + "ÀÔ´Ï´Ù.";
+		return "ì €ì˜ ì´ë¦„ì€ " + name + "ì´ê³ , ì¢…ë¥˜ëŠ” " + kinds + "ì…ë‹ˆë‹¤.";
 	}
 	
 	public abstract void speak();
