@@ -6,14 +6,14 @@ public class VariablePractice3 {
 	public void practice3() {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("°¡·Î : ");
+		System.out.print("Â°Ä„Ë‡ÃŽ : ");
 		double g = sc.nextDouble();
 		
-		System.out.print("¼¼·Î : ");
+		System.out.print("ÅºÅºË‡ÃŽ : ");
 		double s = sc.nextDouble();
 		
-		System.out.println("¸éÀû : " + (g * s));
-		System.out.println("µÑ·¹ : " + ((g + s) * 2));
+		System.out.println("Â¸Ã©Å”Å± : " + (g * s));
+		System.out.println("Ä¾ÅƒË‡Å¡ : " + ((g + s) * 2));
 		
 		
 	}
