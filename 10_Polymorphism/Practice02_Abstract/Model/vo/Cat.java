@@ -28,6 +28,6 @@ public class Cat extends Animal {
 	}
 	
 	public void speak() {
-		System.out.println(super.toString() + location + "¿¡ ¼­½ÄÇÏ¸ç, »ö»óÀº " + color + "ÀÔ´Ï´Ù.");
+		System.out.println(super.toString() + location + "ì— ì„œì‹í•˜ë©°, ìƒ‰ìƒì€ " + color + "ì…ë‹ˆë‹¤.");
 	}
 }
