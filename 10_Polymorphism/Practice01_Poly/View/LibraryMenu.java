@@ -13,11 +13,11 @@ public class LibraryMenu {
 	Scanner sc = new Scanner(System.in);
 	
 	public void mainMenu() {
-		System.out.print("ÀÌ¸§ : ");
+		System.out.print("ì´ë¦„ : ");
 		String name = sc.nextLine();
-		System.out.print("³ªÀÌ : ");
+		System.out.print("ë‚˜ì´ : ");
 		int age = Integer.parseInt(sc.nextLine());
-		System.out.print("¼ºº° : ");
+		System.out.print("ì„±ë³„ : ");
 		char gender = sc.nextLine().charAt(0);
 		
 		Member mem = new Member(name, age, gender);
@@ -25,14 +25,14 @@ public class LibraryMenu {
 		
 		int num = 0;
 		do {
-			System.out.println("==== ¸Ş´º ====");
-			System.out.println("1. ¸¶ÀÌÆäÀÌÁö");
-			System.out.println("2. µµ¼­ ÀüÃ¼ Á¶È¸");
-			System.out.println("3. µµ¼­ °Ë»ö");
-			System.out.println("4. µµ¼­ ´ë¿©ÇÏ±â");
-			System.out.println("9. ÇÁ·Î±×·¥ Á¾·áÇÏ±â");
+			System.out.println("==== ë©”ë‰´ ====");
+			System.out.println("1. ë§ˆì´í˜ì´ì§€");
+			System.out.println("2. ë„ì„œ ì „ì²´ ì¡°íšŒ");
+			System.out.println("3. ë„ì„œ ê²€ìƒ‰");
+			System.out.println("4. ë„ì„œ ëŒ€ì—¬í•˜ê¸°");
+			System.out.println("9. í”„ë¡œê·¸ë¨ ì¢…ë£Œí•˜ê¸°");
 			
-			System.out.print("¸Ş´º ¹øÈ£ : ");
+			System.out.print("ë©”ë‰´ ë²ˆí˜¸ : ");
 			num = sc.nextInt();
 			sc.nextLine();
 			
@@ -45,7 +45,7 @@ public class LibraryMenu {
 			}else if(num == 4) {
 				rentBook();
 			}else if(num == 9) {
-				System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 				return;
 			}
 			if(num == 1) {
@@ -60,15 +60,15 @@ public class LibraryMenu {
 	
 		for(int i = 0; i < lc.selectAll().length; i++) {
 			if(bList[i] instanceof AniBook) {
-				System.out.println(i + "¹ø µµ¼­ : " + "[Book : [title=" + ((AniBook)bList[i]).getTitle() + ", author=" + ((AniBook)bList[i]).getAuthor() + ", publisher=" + ((AniBook)bList[i]).getPublisher() + ", accessAge=" + ((AniBook)bList[i]).getAccessAge());
+				System.out.println(i + "ë²ˆ ë„ì„œ : " + "[Book : [title=" + ((AniBook)bList[i]).getTitle() + ", author=" + ((AniBook)bList[i]).getAuthor() + ", publisher=" + ((AniBook)bList[i]).getPublisher() + ", accessAge=" + ((AniBook)bList[i]).getAccessAge());
 			}else if (bList[i] instanceof CookBook) {
-				System.out.println(i + "¹ø µµ¼­ : " + "[Book : [title=" + ((CookBook)bList[i]).getTitle() + ", author=" + ((CookBook)bList[i]).getAuthor() + ", publisher=" + ((CookBook)bList[i]).getPublisher() + ", coupon="+ ((CookBook)bList[i]).getCoupon());
+				System.out.println(i + "ë²ˆ ë„ì„œ : " + "[Book : [title=" + ((CookBook)bList[i]).getTitle() + ", author=" + ((CookBook)bList[i]).getAuthor() + ", publisher=" + ((CookBook)bList[i]).getPublisher() + ", coupon="+ ((CookBook)bList[i]).getCoupon());
 			}
 		}
 	}
 	
 	public void searchBook() {
-		System.out.print("°Ë»öÇÒ Á¦¸ñ Å°¿öµå : ");
+		System.out.print("ê²€ìƒ‰í•  ì œëª© í‚¤ì›Œë“œ : ");
 		String keyword = sc.nextLine();
 		lc.searchBook(keyword);
 		
@@ -88,19 +88,19 @@ public class LibraryMenu {
 		
 		for(int i = 0; i < lc.selectAll().length; i++) {
 			if(bList[i] instanceof AniBook) {
-				System.out.println(i + "¹ø µµ¼­ : " + "[Book : [title=" + ((AniBook)bList[i]).getTitle() + ", author=" + ((AniBook)bList[i]).getAuthor() + ", publisher=" + ((AniBook)bList[i]).getPublisher() + ", accessAge=" + ((AniBook)bList[i]).getAccessAge());
+				System.out.println(i + "ë²ˆ ë„ì„œ : " + "[Book : [title=" + ((AniBook)bList[i]).getTitle() + ", author=" + ((AniBook)bList[i]).getAuthor() + ", publisher=" + ((AniBook)bList[i]).getPublisher() + ", accessAge=" + ((AniBook)bList[i]).getAccessAge());
 			}else if (bList[i] instanceof CookBook) {
-				System.out.println(i + "¹ø µµ¼­ : " + "[Book : [title=" + ((CookBook)bList[i]).getTitle() + ", author=" + ((CookBook)bList[i]).getAuthor() + ", publisher=" + ((CookBook)bList[i]).getPublisher() + ", coupon="+ ((CookBook)bList[i]).getCoupon());
+				System.out.println(i + "ë²ˆ ë„ì„œ : " + "[Book : [title=" + ((CookBook)bList[i]).getTitle() + ", author=" + ((CookBook)bList[i]).getAuthor() + ", publisher=" + ((CookBook)bList[i]).getPublisher() + ", coupon="+ ((CookBook)bList[i]).getCoupon());
 			}
 		}
 		
-		System.out.print("´ë¿©ÇÒ µµ¼­ ¹øÈ£ ¼±ÅÃ : ");
+		System.out.print("ëŒ€ì—¬í•  ë„ì„œ ë²ˆí˜¸ ì„ íƒ : ");
 		int index = sc.nextInt();
 		
 		switch(lc.rentBook(index)) {
-		case 1: System.out.println("³ªÀÌÁ¦ÇÑÀ¸·Î ºÒ°¡´É"); break;
-		case 2: System.out.println("¼º°øÀû ¿ä¸®ÄíÆù"); break;
-		case 3: System.out.println("¼º°ø"); break;
+		case 1: System.out.println("ë‚˜ì´ì œí•œìœ¼ë¡œ ë¶ˆê°€ëŠ¥"); break;
+		case 2: System.out.println("ì„±ê³µì  ìš”ë¦¬ì¿ í°"); break;
+		case 3: System.out.println("ì„±ê³µ"); break;
 		}
 		
 		
