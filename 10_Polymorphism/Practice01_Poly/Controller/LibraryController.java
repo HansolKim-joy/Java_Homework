@@ -10,11 +10,11 @@ public class LibraryController {
 	private Book[] bList = new Book[5];
 	
 	{
-		bList[0] = new CookBook("¹éÁ¾¿øÀÇ Áı¹ä", "¹éÁ¾¿ø", "tvN", true);
-		bList[1] = new AniBook("ÇÑ¹ø ´õ ÇØ¿ä", "¹ÌÆ¼", "¿ø¸ğ¾î", 19);
-		bList[2] = new AniBook("·çÇÇÀÇ ¿øÇÇ½º", "·çÇÇ", "japan", 12);
-		bList[3] = new CookBook("ÀÌÇıÁ¤ÀÇ ¾ó¸¶³ª ¸ÀÀÖ°Ô¿ä", "ÀÌÇıÁ¤", "¹®ÇĞ", false); 
-		bList[4] = new CookBook("ÃÖÇö¼® ³¯ µû¶óÇØºÁ", "ÃÖÇö¼®", "¼Ò±İÃ¥", true);
+		bList[0] = new CookBook("ë°±ì¢…ì›ì˜ ì§‘ë°¥", "ë°±ì¢…ì›", "tvN", true);
+		bList[1] = new AniBook("í•œë²ˆ ë” í•´ìš”", "ë¯¸í‹°", "ì›ëª¨ì–´", 19);
+		bList[2] = new AniBook("ë£¨í”¼ì˜ ì›í”¼ìŠ¤", "ë£¨í”¼", "japan", 12);
+		bList[3] = new CookBook("ì´í˜œì •ì˜ ì–¼ë§ˆë‚˜ ë§›ìˆê²Œìš”", "ì´í˜œì •", "ë¬¸í•™", false); 
+		bList[4] = new CookBook("ìµœí˜„ì„ ë‚  ë”°ë¼í•´ë´", "ìµœí˜„ì„", "ì†Œê¸ˆì±…", true);
 		
 	}
 	
