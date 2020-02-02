@@ -14,12 +14,12 @@ public class PointMenu{
 		int mNum = 0;
 		
 		do{
-			System.out.println("=== 硫붾돱 ===");
+			System.out.println("=== 硫붾돱 ===");
 			System.out.println("1. �썝");
 			System.out.println("2. �궗媛곹삎");
 			System.out.println("9. �걹�궡湲�");
 			
-			System.out.print("硫붾돱 踰덊샇 : ");
+			System.out.print("硫붾돱 踰덊샇 : ");
 			mNum = sc.nextInt();
 			
 			if(mNum == 9) {
@@ -37,12 +37,12 @@ public class PointMenu{
 		int mNum = 0;
 		
 		do {
-			System.out.println("=== �썝 硫붾돱 ===");
+			System.out.println("=== �썝 硫붾돱 ===");
 			System.out.println("1. �썝 �몮�젅");
 			System.out.println("2. �썝 �꼻�씠");
-			System.out.println("9. 硫붿씤�쑝濡�");
+			System.out.println("9. 硫붿씤�쑝濡�");
 			
-			System.out.print("硫붿씤硫붾돱 : ");
+			System.out.print("硫붿씤硫붾돱 : ");
 			mNum = sc.nextInt();
 			
 			if(mNum == 9) {
@@ -64,12 +64,12 @@ public class PointMenu{
 		int mNum = 0;
 		
 		do{
-			System.out.println("=== �궗媛곹삎 硫붾돱 ===");
+			System.out.println("=== �궗媛곹삎 硫붾돱 ===");
 			System.out.println("1. �궗媛곹삎 �몮�젅");
 			System.out.println("2. �궗媛곹삎 �꼻�씠");
-			System.out.println("9. 硫붿씤�쑝濡�");
+			System.out.println("9. 硫붿씤�쑝濡�");
 			
-			System.out.print("硫붾돱 踰덊샇 : ");
+			System.out.print("硫붾돱 踰덊샇 : ");
 			mNum = sc.nextInt();
 			
 			if(mNum == 9) {
@@ -108,7 +108,7 @@ public class PointMenu{
 		
 		cc.calcArea(x, y, radius);
 		
-		System.out.println("硫댁쟻 : " + x + ", " + y + ", " + radius + cc.calcArea(x, y, radius));
+		System.out.println("硫댁쟻 : " + x + ", " + y + ", " + radius + cc.calcArea(x, y, radius));
 	}
 	
 	public void calcPerimeter() {
@@ -138,6 +138,6 @@ public class PointMenu{
 		
 		rc.calcArea(x, y, height, width);
 		
-		System.out.println("硫댁쟻 : " + x + ", " + y + ", " + height + ", " + width + rc.calcArea(x, y, height, width));
+		System.out.println("硫댁쟻 : " + x + ", " + y + ", " + height + ", " + width + rc.calcArea(x, y, height, width));
 	}
 }
