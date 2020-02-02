@@ -37,6 +37,6 @@ public class Student {
 	}
 	
 	public String inform() {
-		return "ÀÌ¸§ : " + name + " / °ú¸ñ : " + subject + " / Á¡¼ö : " + score;
+		return "Ã€ÃŒÂ¸Â§ : " + name + " / Â°ÃºÂ¸Ã± : " + subject + " / ÃÂ¡Â¼Ã¶ : " + score;
 	}
 }
