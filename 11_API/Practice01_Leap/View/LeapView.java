@@ -13,12 +13,12 @@ public class LeapView {
 		
 		String year = " ";
 		if(lc.isLeapYear(2020) == true) {
-			year = "À±³â";
+			year = "ìœ¤ë…„";
 		}else {
-			year = "Æò³â";
+			year = "í‰ë…„";
 		}
-		System.out.println("2020³âÀº " + year + "ÀÔ´Ï´Ù.");
-		System.out.println("ÃÑ ³¯Â¥ ¼ö : " + lc.leapDate(c));
+		System.out.println("2020ë…„ì€ " + year + "ì…ë‹ˆë‹¤.");
+		System.out.println("ì´ ë‚ ì§œ ìˆ˜ : " + lc.leapDate(c));
 	}
 	
 }
