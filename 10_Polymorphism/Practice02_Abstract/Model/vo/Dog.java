@@ -1,7 +1,7 @@
 package practice3.model.vo;
 
 public class Dog extends Animal{
-	public static final String PLACE = "¾Ö°ßÄ«Æä";
+	public static final String PLACE = "å±€æ–‘å¢¨å…¶";
 	private int weight;
 	
 	public Dog() {}
@@ -19,7 +19,7 @@ public class Dog extends Animal{
 	}
 	
 	public void speak() {
-		System.out.println(super.toString() + " ¸ö¹«°Ô´Â " + weight + "kg ÀÔ´Ï´Ù.");
+		System.out.println(super.toString() + " ä¸ªå…¬éœ¸ç»° " + weight + "kg æ¶èªä¿ƒ.");
 	}
 
 }
