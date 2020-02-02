@@ -6,14 +6,14 @@ public class Run {
 	public static void main(String[] args) {
 		Employee e = new Employee();
 		e.setEmpNo(100);
-		e.setEmpName("È«±æµ¿");
-		e.setDept("¿µ¾÷ºÎ");
-		e.setJob("°úÀå");
-		e.setGender('³²');
+		e.setEmpName("í™ê¸¸ë™");
+		e.setDept("ì˜ì—…ë¶€");
+		e.setJob("ê³¼ì¥");
+		e.setGender('ë‚¨');
 		e.setSalary(2500000);
 		e.setBonusPoint(0.05);
 		e.setPhone("010-1234-5678");
-		e.setAddress("¼­¿ï½Ã °­³²±¸");
+		e.setAddress("ì„œìš¸ì‹œ ê°•ë‚¨êµ¬");
 		
 		System.out.println(e.getEmpNo());
 		System.out.println(e.getEmpName());
