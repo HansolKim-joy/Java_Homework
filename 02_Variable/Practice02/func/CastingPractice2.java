@@ -6,19 +6,19 @@ public class CastingPractice2 {
 	public void practice2() {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("±¹¾î : ");
+		System.out.print("êµ­ì–´ : ");
 		double kor = sc.nextDouble();
 		sc.nextLine();
 		
-		System.out.print("¿µ¾î : ");
+		System.out.print("ì˜ì–´ : ");
 		double eng = sc.nextDouble();
 		sc.nextLine();
 		
-		System.out.print("¼öÇĞ : ");
+		System.out.print("ìˆ˜í•™ : ");
 		double math = sc.nextDouble();
 		
-		System.out.println("ÃÑÁ¡ : " + (int)(kor + eng + math));
-		System.out.println("Æò±Õ ¤¤: " + (int)((kor + eng + math)/3));
+		System.out.println("ì´ì  : " + (int)(kor + eng + math));
+		System.out.println("í‰ê·  ã„´: " + (int)((kor + eng + math)/3));
 		
 		
 	}
