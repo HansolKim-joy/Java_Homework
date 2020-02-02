@@ -7,15 +7,15 @@ public class VariablePractice4 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ë¬¸ìì—´ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		String word = sc.nextLine();
 		char first = word.charAt(0);
 		char second = word.charAt(1);
 		char third = word.charAt(2);
 		
-		System.out.println("Ã¹ ¹øÂ° ¹®ÀÚ : " + first);
-		System.out.println("µÎ ¹øÂ° ¹®ÀÚ : " + second);
-		System.out.println("¼¼ ¹øÂ° ¹®ÀÚ : " + third);
+		System.out.println("ì²« ë²ˆì§¸ ë¬¸ì : " + first);
+		System.out.println("ë‘ ë²ˆì§¸ ë¬¸ì : " + second);
+		System.out.println("ì„¸ ë²ˆì§¸ ë¬¸ì : " + third);
 		
 		
 		
