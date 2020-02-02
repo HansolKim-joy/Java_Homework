@@ -12,7 +12,7 @@ public class FileDAO {
 		File f1 = new File(file);
 		
 		if(f1.exists()) {
-			isTrue = false; // Á¸Àç½Ã false¹İ
+			isTrue = false; // ÃÂ¸Ã€Ã§Â½Ãƒ falseÂ¹Ã
 		}
 		return isTrue;
 	}
