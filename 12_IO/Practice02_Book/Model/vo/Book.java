@@ -71,7 +71,7 @@ public class Book implements Serializable{
 		long time = c.getTimeInMillis();
 		Date date = new Date(time);
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy³â MM¿ù ddÀÏ");
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyyÂ³Ã¢ MMÂ¿Ã¹ ddÃ€Ã");
 		String fmt = sdf.format(date);
 		
 		return title + "\t" + author + "\t" + price + " " + fmt + " " + discount;
