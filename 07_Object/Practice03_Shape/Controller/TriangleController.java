@@ -16,6 +16,6 @@ public class TriangleController {
 	}
 	
 	public String print() {
-		return "ťď°˘Çü" + s.information();
+		return "삼각형 " + s.information();
 	}
 }
