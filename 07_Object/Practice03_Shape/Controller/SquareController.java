@@ -22,6 +22,6 @@ public class SquareController {
 	}
 	
 	public String print() {
-		return "ťç°˘Çü" + s.information();
+		return "사각형 " + s.information();
 	}
 }
