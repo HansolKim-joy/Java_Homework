@@ -14,7 +14,7 @@ public class Shape {
 	}
 	
 	public String information() {
-		return type + " " + height + " " + width + " " + color;	
+		return height + " " + width + " " + color;	
 	}
 	
 	public int getType() {
