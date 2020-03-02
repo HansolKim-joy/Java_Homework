@@ -45,7 +45,7 @@ public class FileDAO {
 	
 	public void fileEdit(String file, String s) {
 		
-		try (FileWriter fw = new FileWriter(file);){
+		try (FileWriter fw = new FileWriter(file, true);){
 			fw.write(s);
 		} catch (IOException e) {
 			e.printStackTrace();
