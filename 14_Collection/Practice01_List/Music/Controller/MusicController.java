@@ -60,12 +60,12 @@ public class MusicController {
 	}
 	
 	public int ascTitle() {
-		Collections.sort(list);
+		list.sort(new AscTitle());
 		return 1;
 	}
 	
 	public int descSinger() {
-		list.sort(new AscTitle());
+		Collections.sort(list);
 		return 1;
 	}
 }
