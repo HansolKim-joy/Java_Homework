@@ -64,9 +64,9 @@ public class Music implements Comparable<Music>{
 	
 	@Override
 	public int compareTo(Music o) {
-		String otherTitle = o.getTitle();
+		String otherSinger = o.getSinger();
 		
-		return title.compareTo(otherTitle);
+		return singer.compareTo(otherSinger);
 	}
 	
 	
