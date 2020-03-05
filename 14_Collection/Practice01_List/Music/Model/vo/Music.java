@@ -66,8 +66,6 @@ public class Music implements Comparable<Music>{
 	public int compareTo(Music o) {
 		String otherSinger = o.getSinger();
 		
-		return singer.compareTo(otherSinger);
+		return -singer.compareTo(otherSinger);
 	}
-	
-	
 }
