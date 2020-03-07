@@ -61,7 +61,7 @@ public class FarmController {
 		Set<Entry<Farm, Integer>> set = hMap.entrySet();
 		Iterator<Entry<Farm, Integer>> it = set.iterator();
 		
-		if(it.hasNext()) {
+		while(it.hasNext()) {
 			Entry<Farm, Integer> entry = it.next();
 			for(int i = 0; i < list.size(); i++) {
 				if(list.get(i).equals(f)) {
