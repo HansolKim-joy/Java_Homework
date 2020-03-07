@@ -44,7 +44,7 @@ public class FarmController {
 		Set<Entry<Farm, Integer>> set = hMap.entrySet();
 		Iterator<Entry<Farm, Integer>> it = set.iterator();
 		
-		if(it.hasNext()) {
+		while(it.hasNext()) {
 			Entry<Farm, Integer> entry = it.next();
 			if(entry.getKey().getKind().equals(f.getKind())){
 				if(hMap.containsKey(f) && entry.getValue() >= 0) {
