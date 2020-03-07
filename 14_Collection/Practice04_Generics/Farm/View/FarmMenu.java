@@ -282,7 +282,7 @@ public class FarmMenu {
 	public void printBuyFarm() {
 		Iterator<Farm> it = fc.printBuyFarm().iterator();
 		
-		if(it.hasNext()) {
+		while(it.hasNext()) {
 			Farm f = it.next();
 			System.out.println(f.getKind());
 		}
