@@ -49,7 +49,7 @@ public class FarmController {
 			if(entry.getKey().getKind().equals(f.getKind())){
 				if(hMap.containsKey(f) && entry.getValue() >= 0) {
 					list.add(f);
-					entry.setValue(hMap.get(f) - 1);
+					entry.setValue(entry.get(f) - 1);
 					return true;
 				}
 			}
